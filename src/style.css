@@ -366,3 +366,27 @@ a:hover {
 }
 
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.footer_index {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  width: 100%;
+}
+#footer_p {
+  font-family: "Montserrat", sans-serif;
+  color: #c4bbb8;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+#copyright {
+  font-size: 19px;
+  margin-left: 10px;
+}
