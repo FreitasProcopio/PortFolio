@@ -181,13 +181,21 @@ a:hover {
     font-family: "Quicksand", sans-serif; 
   }
 
-  .img {
+  /* Global Variables - end */
+
+  .scratch_img {
     width: 400px;
   }
 
-  /* Global Variables - end */
-
-
+  .fighter_img {
+    width: 400px;
+    height: 300px;
+  }
+  .tshirt_img {
+    width: 400px;
+    height: 300px;
+  }
+  
   #project1 {
     display: flex;
     flex-flow: row wrap;
@@ -199,13 +207,8 @@ a:hover {
   }
 
   .card {
-    padding: 60px 48px;
-    display: inline-block;
-    flex-flow: row wrap;
-  }
-
-  .card_down {
-    padding: 100px 48px;
+    padding: 60px 40px;
+    margin-bottom: 100px;
     display: inline-block;
     flex-flow: row wrap;
   }
@@ -243,7 +246,7 @@ a:hover {
   flex-flow: column wrap;
   justify-content: center;
   margin-top: 4%;
-  margin-left: 450px;
+  margin-left: 30%;
 }
 
 .sobre {
@@ -270,26 +273,27 @@ a:hover {
   width: 300px;
   height: 300px;
 }
+
 .habilidades {
   display: inline-block;
-  flex-flow: row wrap;
+  flex-direction: row;
   margin-top: 18%;
 }
 
 .p1 {
   display: inline-block;
-  margin-left: 180px;
+  margin-left: 10%;
 }
 
 .p2 {
   display: inline-block;
-  margin-left: 180px;
+  margin-left: 10%;
   margin-top: 60px;
 }
 
 .p3 {
   display: inline-block;
-  margin-left: 180px;
+  margin-left: 10%;
   margin-top: 60px;
   margin-bottom: 100px;
 }
