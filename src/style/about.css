@@ -1,0 +1,25 @@
+.body {
+    box-sizing: border-box;
+    background-color: #695745;
+}
+
+.me {
+    display: inline-block;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 30%;
+}
+
+.sobre {
+    font-family: "Montserrat", sans-serif;
+    font-size: 65px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+    color: white;
+}
+
+#img_1, #img_2, #img_3, #img_4, #img_5, #img_6, #img_7 {
+    padding: 10px 1px;
+    width: 60%;
+}

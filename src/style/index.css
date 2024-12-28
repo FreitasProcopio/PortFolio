@@ -1,0 +1,46 @@
+.body {
+    box-sizing: border-box;
+    background-color: #314f83;
+}
+
+.name1 {
+    display: flex;
+    flex-flow: row wrap;
+    color: #e5eaef;
+    font-family: "Montserrat", sans-serif;
+    font-size: 75px;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+.name2 {
+    display: flex;
+    flex-flow: row wrap;
+    color: #a07346;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    margin-left: 32%;
+    margin-top: -5%;
+}
+
+.apresentar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 8%;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #DBE4EE;
+}
+
+#img {
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -24%;
+    width: 400px;
+    height: 400px;
+}

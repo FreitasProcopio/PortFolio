@@ -1,0 +1,52 @@
+.body {
+    box-sizing: border-box;
+    background-color: #695745;
+}
+
+.img_hab {
+    position: absolute;
+    flex-flow: column wrap;
+    margin-top: -250px;
+    margin-left: 600px;
+    width: 300px;
+    height: 300px;
+}
+
+.habilidades {
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 18%;
+}
+
+.fileira01 {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.fileira02 {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+.fileira03 {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#icon1,
+#icon2,
+#icon3,
+#icon4 {
+    width: 85px;
+}
+
+#all {
+    width: 180px;
+    display: inline-block;
+    margin-right: 120px;
+    margin-left: 40px;
+    font-family: "Quicksand", sans-serif;
+}
