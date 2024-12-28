@@ -50,19 +50,18 @@
     height: 300px;
 }
 
-.scratch_img {
-    width: 400px;
-}
-
-.fighter_img {
-    width: 400px;
+.scratch_img,
+.fighter_img,
+.tshirt_img,
+.quiz_img,
+.dotasks_img,
+.bemestar_img,
+.mydear_img
+{
+    width: 450px;
     height: 300px;
 }
 
-.tshirt_img {
-    width: 400px;
-    height: 300px;
-}
 
 #project1 {
     display: flex;
@@ -75,34 +74,26 @@
 }
 
 .card {
-    padding: 60px 40px;
+    padding: 30px 40px;
     margin-bottom: 100px;
-    margin-left: 10px;
     display: inline-block;
     flex-flow: row wrap;
 }
 
-#letra,
-b {
+#letra {
     background-color: rgb(103, 95, 83);
     font-family: "Quicksand", sans-serif;
+    text-align: center;
 }
 
-#scratch-icon{
-    background-color: rgb(103, 95, 83);
-    margin-top: 10px;
-    font-size: 30px;
-    width: 50px;
-}
-
-#street-icons {
-    background-color: rgb(103, 95, 83);
-    margin-top: 10px;
-    font-size: 30px;
-    width: 50px;
-}
-
-#tshirt-icons {
+#scratch-icon,
+#fighter-icons,
+#tshirt-icons,
+#quiz-icons,
+#dotasks-icons,
+#bemestar-icons,
+#mydear-icons
+{
     background-color: rgb(103, 95, 83);
     margin-top: 10px;
     font-size: 30px;
